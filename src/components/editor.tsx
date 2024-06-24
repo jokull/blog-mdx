@@ -114,6 +114,7 @@ export const Editor = ({ post }: { post: Post }) => {
                     post.slug,
                     debouncedPreviewContent
                   );
+                  router.reload();
                 });
               });
             }}
